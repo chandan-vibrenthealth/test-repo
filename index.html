@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingfisher</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        .Card-BG {
+            height: 100px;
+            padding: 14px 63px 0px 13px;
+            border-radius: 4px;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.35);
+            background-color: #ffffff;
+            margin-right: 25px;
+        }
+
+        .Total-Cases- {
+            width: 173px;
+            height: 15px;
+            margin: 0 31px 8px 0;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #727173;
+        }
+
+        .Main-BG-Container {
+            width: 850px;
+            height: 769px;
+            margin: 16px 21px 0 0;
+            padding: 20px 23px 39px;
+            border-radius: 2px;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.35);
+            background-color: #ffffff;
+        }
+
+        .Up-from-yesterday {
+            width: 155px;
+            height: 15px;
+            margin: 8px 0 0;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #727173;
+        }
+        .Questions-Please-co {
+            width: 584px;
+            height: 20px;
+            margin: 40px 26px 21.5px 0;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.11;
+            letter-spacing: normal;
+            color: #262261;
+        }
+
+        .PRO-Kingfisher-011-21_Banner_V1 {
+            max-width: 900px;
+            width: 100%;
+            height: auto;
+            margin: 21.5px 0 0;
+        }
+
+        .Dashboard-Updated-6 {
+            width: 184px;
+            height: 16px;
+            margin: 16px 121px 40px 0;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #333333;
+            display: block;
+        }
+
+        .count-numbers{
+            width: 173px;
+            height: 27px;
+            margin: 8px 31px 8px 0;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #434343;
+        }
+
+        .percentage-change-up{
+            width: 31px;
+            height: 15px;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #5ba9dc;
+        }
+        .percentage-change-down{
+            width: 31px;
+            height: 15px;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ac5197;
+        }
+        .Fill-1-Copy{
+            width: 13px;
+            height: 7px;
+        }
+        /* Float four columns side by side */
+        .column {
+            float: left;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            }
+        .Dashboard-Updated-6{
+            margin: 0px 0px 20px 0px !important;
+        }
+
+        .Card-BG{
+            margin-right: 0px;
+        }
+        }
+
+        @media screen and (width: 768px) and (height:1024px) {
+            .column{
+                width: 33%;
+            }
+            .Card-BG{
+                margin-right: 8px;
+            }
+
+            .ipadclass{
+                margin-right: 0px !important;
+            }
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="Card-BG">
+                <p class="Total-Cases-">Total Cases*</p>
+                <p class="count-numbers">679,472</p>
+                <div>
+                    <span class="Fill-1-Copy"><img src="img/icon-up.png" alt="Up icon"></span>
+                    <span class="percentage-change-up">8.5%</span>
+                    <span class="Up-from-yesterday">Up from yesterday</span>
+    
+                </div>
+            </div>        
+        </div>
+        <div class="column">
+            <div class="Card-BG">
+                <p class="Total-Cases-">Total Hospitalizations **</p>
+                <p class="count-numbers">30,350</p>
+                <div>
+                    <span class="Fill-1-Copy"><img src="img/icon-down.png" alt="Down icon"></span>
+                    <span class="percentage-change-down">1.3%</span>
+                    <span class="Up-from-yesterday">Down from yesterday</span>    
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="Card-BG ipadclass">
+                <p class="Total-Cases-">Total Deaths</p>
+                <p class="count-numbers">11,389</p>
+                <div>
+                    <span class="Fill-1-Copy"><img src="img/icon-up.png" alt="Up icon"></span>
+                    <span class="percentage-change-up">1.3%</span>
+                    <span class="Up-from-yesterday">Up from yesterday</span>
+    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <span class="Dashboard-Updated-6">Dashboard Updated: 6/23/2021</span>
+
+    <span class="Questions-Please-co">Questions? Please contact us at support@COVIDCAREstudy.org</span>
+    <div>
+        <img src="img/pro-kingfisher-011-21-banner-v-1.jpg"
+        srcset="img/pro-kingfisher-011-21-banner-v-1@2x.jpg 2x,
+                img/pro-kingfisher-011-21-banner-v-1@3x.jpg 3x"
+        class="PRO-Kingfisher-011-21_Banner_V1">
+    </div>
+
+    
+</body>
+</html>
